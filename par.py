@@ -1,0 +1,14 @@
+dx = 0.05e-6
+dz = 0.05e-6
+dt = 0.1e-14
+c = 2.99792458e8
+pai = 3.14159265358979323846
+ramda = 0.998
+input_wavelength = 1.55e-6
+Hz = c / input_wavelength
+n1 = 1.52
+n2 = 1.50
+k0 = (2 * pai) / input_wavelength
+#w0 = 2 * pai * c / input_wavelength
+w0 = 2 * pai *Hz
+R = 0.010
